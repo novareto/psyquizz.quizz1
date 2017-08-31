@@ -8,7 +8,7 @@ import uvclight
 from grokcore.component import name
 from nva.psyquizz import hs
 
-from ..quizz1 import Quizz1
+from .quizz1 import Quizz1
 from uvclight.auth import require
 from zope.schema import getFieldsInOrder
 
